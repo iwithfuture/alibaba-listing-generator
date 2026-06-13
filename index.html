@@ -1,0 +1,161 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>阿里国际站商品发布工作流</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="topbar">
+      <div>
+        <p class="eyebrow">Alibaba.com Listing Operations</p>
+        <h1>阿里国际站商品发布工作流</h1>
+      </div>
+      <div class="status-pill" id="promptStatus">提示词加载中</div>
+    </header>
+
+    <main class="workspace">
+      <section class="input-pane" aria-labelledby="input-title">
+        <div class="section-head">
+          <div>
+            <p class="eyebrow">Product Brief</p>
+            <h2 id="input-title">产品资料</h2>
+          </div>
+          <button class="ghost-button" id="clearForm" type="button">清空</button>
+        </div>
+
+        <form id="productForm" class="brief-form">
+          <label>
+            产品名称
+            <input name="productName" placeholder="如：Stainless Steel Water Bottle" required />
+          </label>
+          <label>
+            核心关键词
+            <input name="coreKeyword" placeholder="如：stainless steel water bottle" required />
+          </label>
+          <label>
+            属性词
+            <input name="attributeWords" placeholder="如：double wall, vacuum insulated, leakproof" />
+          </label>
+          <label>
+            关键词变体
+            <input name="keywordVariants" placeholder="如：thermal flask, insulated tumbler" />
+          </label>
+          <label>
+            应用场景
+            <input name="scenarios" placeholder="如：outdoor, office, gym, school" />
+          </label>
+          <label>
+            材质
+            <input name="material" placeholder="如：304 stainless steel, BPA-free lid" />
+          </label>
+          <label>
+            规格
+            <input name="specs" placeholder="如：500ml / 750ml / 1000ml" />
+          </label>
+          <label>
+            功能
+            <input name="functions" placeholder="如：keeps cold 24h, keeps hot 12h" />
+          </label>
+          <label>
+            定制能力
+            <input name="customization" placeholder="如：logo printing, color, packaging" />
+          </label>
+          <div class="form-grid">
+            <label>
+              MOQ
+              <input name="moq" placeholder="如：500 pcs" />
+            </label>
+            <label>
+              样品
+              <input name="sample" placeholder="如：available in 3-5 days" />
+            </label>
+          </div>
+          <div class="form-grid">
+            <label>
+              交期
+              <input name="leadTime" placeholder="如：15-25 days" />
+            </label>
+            <label>
+              认证
+              <input name="certifications" placeholder="如：LFGB, FDA, BPA Free" />
+            </label>
+          </div>
+          <label>
+            包装
+            <input name="packaging" placeholder="如：white box, color box, carton" />
+          </label>
+          <label>
+            目标国家
+            <input name="targetCountries" placeholder="如：United States, Germany, Australia" />
+          </label>
+          <label>
+            补充说明
+            <textarea name="notes" rows="4" placeholder="补充卖点、禁用词、价格区间、客户类型等"></textarea>
+          </label>
+
+          <button class="primary-button" type="submit">生成商品内容</button>
+        </form>
+      </section>
+
+      <section class="output-pane" aria-labelledby="output-title">
+        <div class="section-head">
+          <div>
+            <p class="eyebrow">Generated Listing</p>
+            <h2 id="output-title">发布内容</h2>
+          </div>
+          <button class="ghost-button" id="copyAll" type="button">复制全部</button>
+        </div>
+
+        <div class="output-stack" id="outputs">
+          <article class="result-module">
+            <div class="module-head">
+              <h3>标题</h3>
+              <button type="button" class="copy-button" data-copy="titleOutput">复制</button>
+            </div>
+            <div id="titleOutput" class="output-content empty">填写左侧资料后点击生成。</div>
+          </article>
+
+          <article class="result-module">
+            <div class="module-head">
+              <h3>五点卖点</h3>
+              <button type="button" class="copy-button" data-copy="bulletsOutput">复制</button>
+            </div>
+            <div id="bulletsOutput" class="output-content empty"></div>
+          </article>
+
+          <article class="result-module">
+            <div class="module-head">
+              <h3>FAQ</h3>
+              <button type="button" class="copy-button" data-copy="faqOutput">复制</button>
+            </div>
+            <div id="faqOutput" class="output-content empty"></div>
+          </article>
+
+          <article class="result-module">
+            <div class="module-head">
+              <h3>详情页结构</h3>
+              <button type="button" class="copy-button" data-copy="detailOutput">复制</button>
+            </div>
+            <div id="detailOutput" class="output-content empty"></div>
+          </article>
+
+          <article class="result-module">
+            <div class="module-head">
+              <h3>质检结果</h3>
+              <button type="button" class="copy-button" data-copy="qcOutput">复制</button>
+            </div>
+            <div id="qcOutput" class="output-content empty"></div>
+          </article>
+        </div>
+      </section>
+    </main>
+
+    <template id="toastTemplate">
+      <div class="toast" role="status"></div>
+    </template>
+
+    <script src="app.js"></script>
+  </body>
+</html>

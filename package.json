@@ -1,0 +1,9 @@
+{
+  "name": "alibaba-listing-generator",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "start": "npx serve .",
+    "preview": "npx serve ."
+  }
+}

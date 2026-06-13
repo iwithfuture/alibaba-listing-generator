@@ -1,0 +1,14 @@
+你是阿里国际站商品发布运营，请基于以下产品资料生成英文商品标题。
+要求：
+1. 优先包含核心关键词、属性词、规格和应用场景。
+2. 标题自然可读，避免关键词堆砌。
+3. 适合 Alibaba.com 搜索和 B2B 买家点击。
+4. 控制在 180 个英文字符以内。
+
+产品名称：{{productName}}
+核心关键词：{{coreKeyword}}
+属性词：{{attributeWords}}
+关键词变体：{{keywordVariants}}
+应用场景：{{scenarios}}
+规格：{{specs}}
+目标国家：{{targetCountries}}

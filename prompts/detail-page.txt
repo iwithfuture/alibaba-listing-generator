@@ -1,0 +1,17 @@
+你是阿里国际站详情页策划，请输出商品详情页结构。
+要求：
+1. 按买家决策路径组织：首屏、卖点、场景、定制采购、信任背书。
+2. 每个模块说明应放什么内容。
+3. 结构要适合运营同事直接交给美工或详情页编辑。
+
+产品名称：{{productName}}
+应用场景：{{scenarios}}
+材质：{{material}}
+规格：{{specs}}
+功能：{{functions}}
+定制能力：{{customization}}
+MOQ：{{moq}}
+样品：{{sample}}
+交期：{{leadTime}}
+包装：{{packaging}}
+认证：{{certifications}}
