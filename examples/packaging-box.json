@@ -1,0 +1,33 @@
+{
+  "id": "packaging-box",
+  "name": "定制包装盒",
+  "input": {
+    "productName": "Custom Paper Packaging Box",
+    "productCore": "packaging box",
+    "coreKeyword": "custom paper packaging box",
+    "brandMarketing": "OEM",
+    "attributeWords": "foldable, recyclable, printed",
+    "keywordVariants": "paper gift box, retail carton",
+    "scenarios": "cosmetics, gifts, consumer electronics",
+    "material": "art paper, kraft paper, corrugated paper",
+    "specs": "custom size, 250gsm-1200gsm paper options",
+    "functions": "brand display, product protection, retail presentation",
+    "customization": "size, logo, color, surface finish, insert design",
+    "moq": "1000 pcs",
+    "sample": "digital proof and physical sample available",
+    "leadTime": "12-18 days after artwork approval",
+    "packaging": "flat packed in export cartons",
+    "certifications": "FSC paper option available",
+    "targetCountries": "United States, France, Japan",
+    "targetBuyers": "brand owners, packaging distributors, gift suppliers",
+    "notes": "Artwork file and dieline confirmation are required before production."
+  },
+  "outputs": {
+    "productBrief": "产品定位: Custom Paper Packaging Box\n产品中心词: packaging box\n核心属性: foldable, recyclable, printed\n目标买家: brand owners, packaging distributors, gift suppliers",
+    "title": "OEM foldable recyclable printed packaging box paper gift box for cosmetics",
+    "bullets": "1. Procurement Fit: made for brand owners and packaging distributors needing custom paper packaging.\n2. Product Value: paper options and custom thickness support retail display and product protection.\n3. Customization Support: size, logo, color, finish, and insert design can be customized.\n4. Order Execution: MOQ 1000 pcs with sample proof and 12-18 days lead time after artwork approval.\n5. Market Confidence: FSC paper option can support buyers with sustainability requirements.",
+    "faq": "Q1: Can I customize the box size?\nA1: Yes, custom size and dieline can be confirmed before sampling.\n\nQ2: What files are needed?\nA2: Artwork and dieline files are required before production.\n\nQ3: How are boxes packed?\nA3: Boxes are usually flat packed in export cartons.",
+    "qualityCheck": "质检总评: 通过\n通过项: 采购信息完整；详情页可围绕材质、工艺、打样、交期展开。\n警告项: 需确认 artwork 和 dieline。\n需修改项: 无",
+    "finalOutput": "# 阿里国际站商品发布内容\n\n## 标题\nOEM foldable recyclable printed packaging box paper gift box for cosmetics\n\n## 质检结果\n通过，需确认 artwork 和 dieline。"
+  }
+}

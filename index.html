@@ -15,6 +15,108 @@
       <div class="status-pill" id="promptStatus">提示词加载中</div>
     </header>
 
+    <section class="explore-panel" aria-labelledby="explore-title">
+      <div class="explore-head">
+        <div>
+          <p class="eyebrow">Explore Workflows</p>
+          <h2 id="explore-title">选择一个商品发布 Skill</h2>
+        </div>
+        <div class="explore-search">
+          <input id="workflowSearch" type="search" placeholder="搜索标题、五点、FAQ、质检、详情页" />
+        </div>
+      </div>
+
+      <div class="workflow-filters" aria-label="工作流分类">
+        <button class="filter-chip active" type="button" data-filter="all">全部</button>
+        <button class="filter-chip" type="button" data-filter="content">内容生成</button>
+        <button class="filter-chip" type="button" data-filter="qa">质检</button>
+        <button class="filter-chip" type="button" data-filter="workflow">完整流程</button>
+        <button class="filter-chip" type="button" data-filter="industry">行业</button>
+      </div>
+
+      <div class="workflow-gallery" id="workflowGallery">
+        <article class="workflow-card selected" data-category="workflow" data-keywords="完整流程 商品发布 workflow 质检 最终发布版">
+          <div class="card-topline">
+            <span>完整流程</span>
+            <strong>7 steps</strong>
+          </div>
+          <h3>商品发布总工作流</h3>
+          <p>串联资料结构化、标题、五点、FAQ、详情页、质检和最终发布版。</p>
+          <button class="use-workflow" type="button" data-skill="商品发布总工作流：按固定顺序执行资料结构化、标题、五点卖点、FAQ、详情页结构、质检、最终发布版。">使用</button>
+        </article>
+
+        <article class="workflow-card" data-category="content" data-keywords="标题 title 关键词 产品中心词">
+          <div class="card-topline">
+            <span>标题</span>
+            <strong>Formula</strong>
+          </div>
+          <h3>Alibaba 标题 Skill</h3>
+          <p>按“品牌/营销词 + 属性词 + 产品中心词 + 关键词变体 + 应用场景”生成标题。</p>
+          <button class="use-workflow" type="button" data-skill="标题 Skill：严格使用标题公式，避免堆词，产品中心词只出现一次，不使用 Best、No.1、Guaranteed。">使用</button>
+        </article>
+
+        <article class="workflow-card" data-category="content" data-keywords="五点 卖点 bullets b2b 采购价值">
+          <div class="card-topline">
+            <span>五点</span>
+            <strong>B2B</strong>
+          </div>
+          <h3>B2B 五点卖点 Skill</h3>
+          <p>围绕采购适配、产品价值、定制能力、订单执行和市场信任输出。</p>
+          <button class="use-workflow" type="button" data-skill="五点卖点 Skill：按 B2B 采购价值写，覆盖采购适配、产品价值、定制能力、订单执行、市场信任。">使用</button>
+        </article>
+
+        <article class="workflow-card" data-category="content" data-keywords="faq moq 样品 定制 交期 包装 认证 付款 售后">
+          <div class="card-topline">
+            <span>FAQ</span>
+            <strong>8 topics</strong>
+          </div>
+          <h3>采购 FAQ Skill</h3>
+          <p>覆盖 MOQ、样品、定制、交期、包装、认证、付款和售后，不编造。</p>
+          <button class="use-workflow" type="button" data-skill="FAQ Skill：围绕 MOQ、样品、定制、交期、包装、认证、付款、售后生成问答；缺失信息用待确认表达。">使用</button>
+        </article>
+
+        <article class="workflow-card" data-category="qa" data-keywords="质检 qa 风险词 堆词 编造 信息缺失">
+          <div class="card-topline">
+            <span>质检</span>
+            <strong>Risk scan</strong>
+          </div>
+          <h3>发布质检 Skill</h3>
+          <p>检查堆词、虚假承诺、风险词、FAQ 编造和 B2B 采购信息缺失。</p>
+          <button class="use-workflow" type="button" data-skill="质检 Skill：检查标题堆词、中心词数量、编造认证/销量/排名/客户案例、风险词、FAQ 编造和 B2B 信息缺失。">使用</button>
+        </article>
+
+        <article class="workflow-card" data-category="industry" data-keywords="水杯 保温杯 drinkware bottle 礼品 零售">
+          <div class="card-topline">
+            <span>行业</span>
+            <strong>Drinkware</strong>
+          </div>
+          <h3>水杯保温杯行业工作流</h3>
+          <p>适合保温杯、运动水壶、礼品杯等产品，重点关注材质、容量、保温性能和定制包装。</p>
+          <button class="use-workflow" type="button" data-skill="水杯保温杯行业工作流：重点参考材质、容量、保温时长、食品接触认证、礼品定制、零售包装和目标市场。">使用</button>
+        </article>
+
+        <article class="workflow-card" data-category="industry" data-keywords="包装盒 packaging box paper gift carton 印刷">
+          <div class="card-topline">
+            <span>行业</span>
+            <strong>Packaging</strong>
+          </div>
+          <h3>包装盒行业工作流</h3>
+          <p>适合纸盒、礼品盒、彩盒、零售包装，重点关注材质、克重、工艺、打样和文件确认。</p>
+          <button class="use-workflow" type="button" data-skill="包装盒行业工作流：重点参考纸张材质、克重、尺寸、印刷工艺、表面处理、打样、dieline、包装方式和交期。">使用</button>
+        </article>
+
+        <article class="workflow-card" data-category="industry" data-keywords="机械零件 cnc machining part 工业 图纸 公差">
+          <div class="card-topline">
+            <span>行业</span>
+            <strong>Industrial</strong>
+          </div>
+          <h3>机械零件行业工作流</h3>
+          <p>适合 CNC、铝件、工业配件，重点关注图纸、公差、材质、表面处理、样件和批量交付。</p>
+          <button class="use-workflow" type="button" data-skill="机械零件行业工作流：重点参考图纸、公差、材质牌号、加工工艺、表面处理、样件确认、包装保护和工程买家采购逻辑。">使用</button>
+        </article>
+      </div>
+    </section>
+
     <main class="workspace">
       <section class="input-pane" aria-labelledby="input-title">
         <div class="section-head">
@@ -25,14 +127,68 @@
           <button class="ghost-button" id="clearForm" type="button">清空</button>
         </div>
 
+        <div class="case-library" aria-label="案例库">
+          <label>
+            案例库
+            <select id="exampleSelect">
+              <option value="">选择一个案例</option>
+            </select>
+          </label>
+          <div class="case-actions">
+            <button class="ghost-button" id="loadExample" type="button">加载案例</button>
+            <button class="ghost-button" id="testExamples" type="button">测试案例</button>
+          </div>
+          <div class="case-status" id="exampleStatus">案例库加载中</div>
+        </div>
+
+        <div class="skill-settings" aria-label="Skill 设置">
+          <div class="settings-title">
+            <div>
+              <p class="eyebrow">Skill Settings</p>
+              <h3>工作流 Skill</h3>
+            </div>
+            <button class="ghost-button" id="saveSkillSettings" type="button">保存设置</button>
+          </div>
+
+          <label>
+            Skill 输入
+            <textarea id="skillInput" rows="5" placeholder="输入当前商品发布工作流要使用的 skill、行业规则、禁用词或运营偏好。"></textarea>
+          </label>
+
+          <div class="folder-tools">
+            <button class="ghost-button" id="addFolder" type="button">添加文件夹</button>
+            <input id="folderPicker" type="file" webkitdirectory directory multiple hidden />
+            <span id="folderStatus">未添加文件夹</span>
+          </div>
+
+          <div class="folder-list" id="folderList"></div>
+
+          <div class="knowledge-chat" aria-label="行业知识库问答">
+            <label>
+              使用时输入问题
+              <textarea id="questionInput" rows="4" placeholder="例如：这个行业详情页应该突出哪些模块？客户问 MOQ 和样品怎么回答？"></textarea>
+            </label>
+            <button class="primary-button" id="askKnowledge" type="button">根据文件夹和上下文回答</button>
+            <div class="answer-box empty" id="answerOutput">添加行业文件夹后，可以在这里像问 GPT 一样提问。</div>
+          </div>
+        </div>
+
         <form id="productForm" class="brief-form">
           <label>
             产品名称
             <input name="productName" placeholder="如：Stainless Steel Water Bottle" required />
           </label>
           <label>
+            产品中心词
+            <input name="productCore" placeholder="如：water bottle" />
+          </label>
+          <label>
             核心关键词
             <input name="coreKeyword" placeholder="如：stainless steel water bottle" required />
+          </label>
+          <label>
+            品牌/营销词
+            <input name="brandMarketing" placeholder="如：Custom, Wholesale, OEM Factory Supply" />
           </label>
           <label>
             属性词
@@ -91,6 +247,10 @@
             <input name="targetCountries" placeholder="如：United States, Germany, Australia" />
           </label>
           <label>
+            目标买家
+            <input name="targetBuyers" placeholder="如：retailers, distributors, corporate gift buyers" />
+          </label>
+          <label>
             补充说明
             <textarea name="notes" rows="4" placeholder="补充卖点、禁用词、价格区间、客户类型等"></textarea>
           </label>
@@ -111,10 +271,18 @@
         <div class="output-stack" id="outputs">
           <article class="result-module">
             <div class="module-head">
+              <h3>资料结构化</h3>
+              <button type="button" class="copy-button" data-copy="briefOutput">复制</button>
+            </div>
+            <div id="briefOutput" class="output-content empty">填写左侧资料后点击生成。</div>
+          </article>
+
+          <article class="result-module">
+            <div class="module-head">
               <h3>标题</h3>
               <button type="button" class="copy-button" data-copy="titleOutput">复制</button>
             </div>
-            <div id="titleOutput" class="output-content empty">填写左侧资料后点击生成。</div>
+            <div id="titleOutput" class="output-content empty"></div>
           </article>
 
           <article class="result-module">
@@ -147,6 +315,14 @@
               <button type="button" class="copy-button" data-copy="qcOutput">复制</button>
             </div>
             <div id="qcOutput" class="output-content empty"></div>
+          </article>
+
+          <article class="result-module">
+            <div class="module-head">
+              <h3>最终发布版</h3>
+              <button type="button" class="copy-button" data-copy="finalOutput">复制</button>
+            </div>
+            <div id="finalOutput" class="output-content empty"></div>
           </article>
         </div>
       </section>

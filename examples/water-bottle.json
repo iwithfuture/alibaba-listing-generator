@@ -1,0 +1,33 @@
+{
+  "id": "water-bottle",
+  "name": "不锈钢保温杯",
+  "input": {
+    "productName": "Stainless Steel Water Bottle",
+    "productCore": "water bottle",
+    "coreKeyword": "stainless steel water bottle",
+    "brandMarketing": "Custom",
+    "attributeWords": "double wall, vacuum insulated, leakproof",
+    "keywordVariants": "thermal flask, insulated drinkware",
+    "scenarios": "outdoor, office, gym, school",
+    "material": "304 stainless steel, BPA-free lid",
+    "specs": "500ml / 750ml / 1000ml",
+    "functions": "keeps cold 24h, keeps hot 12h",
+    "customization": "logo printing, custom color, gift box",
+    "moq": "500 pcs",
+    "sample": "available in 3-5 days",
+    "leadTime": "15-25 days",
+    "packaging": "white box, color box, export carton",
+    "certifications": "LFGB, FDA, BPA Free",
+    "targetCountries": "United States, Germany, Australia",
+    "targetBuyers": "retailers, distributors, corporate gift buyers",
+    "notes": "Suitable for corporate gifts and outdoor retail channels."
+  },
+  "outputs": {
+    "productBrief": "产品定位: Stainless Steel Water Bottle\n产品中心词: water bottle\n核心关键词: stainless steel water bottle\n核心属性: double wall, vacuum insulated, leakproof\n应用场景: outdoor, office, gym, school\n目标买家: retailers, distributors, corporate gift buyers",
+    "title": "Custom double wall vacuum insulated leakproof water bottle thermal flask for outdoor",
+    "bullets": "1. Procurement Fit: designed for retailers, distributors, and corporate gift buyers sourcing insulated drinkware.\n2. Product Value: 304 stainless steel and double wall insulation support daily outdoor, office, and gym use.\n3. Customization Support: logo, color, and gift box customization help buyers build private-label programs.\n4. Order Execution: MOQ 500 pcs, sample in 3-5 days, and 15-25 days lead time support planned purchasing.\n5. Market Confidence: LFGB, FDA, and BPA Free information can support target market compliance review.",
+    "faq": "Q1: What is your MOQ?\nA1: The MOQ is 500 pcs.\n\nQ2: Can I get a sample?\nA2: Samples are available in 3-5 days.\n\nQ3: Do you support customization?\nA3: Logo printing, custom color, and gift box options are available.\n\nQ4: What is the lead time?\nA4: The lead time is 15-25 days after order confirmation.",
+    "qualityCheck": "质检总评: 通过\n通过项: 标题未堆词；产品中心词单一；B2B 采购信息完整。\n警告项: 无\n需修改项: 无",
+    "finalOutput": "# 阿里国际站商品发布内容\n\n## 标题\nCustom double wall vacuum insulated leakproof water bottle thermal flask for outdoor\n\n## 五点卖点\n见案例五点输出。\n\n## FAQ\n见案例 FAQ 输出。\n\n## 质检结果\n通过。"
+  }
+}

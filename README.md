@@ -14,8 +14,20 @@ npx serve .
 
 每个生成模块都有独立提示词文件，位于 `prompts/`：
 
-- `title.txt`
-- `bullets.txt`
-- `faq.txt`
-- `detail-page.txt`
-- `quality-check.txt`
+- `product-brief.md`
+- `title-skill.md`
+- `bullet-skill.md`
+- `faq-skill.md`
+- `detail-page-skill.md`
+- `qa-check-skill.md`
+- `final-output-skill.md`
+
+## 案例库
+
+案例位于 `examples/`，可在页面中一键加载并重新生成：
+
+- `water-bottle.json`
+- `phone-case.json`
+- `packaging-box.json`
+- `machinery-part.json`
+- `custom-gift.json`

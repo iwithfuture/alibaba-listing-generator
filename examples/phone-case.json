@@ -1,0 +1,33 @@
+{
+  "id": "phone-case",
+  "name": "防摔手机壳",
+  "input": {
+    "productName": "Shockproof Phone Case",
+    "productCore": "phone case",
+    "coreKeyword": "shockproof phone case",
+    "brandMarketing": "Wholesale",
+    "attributeWords": "anti-drop, transparent, slim fit",
+    "keywordVariants": "protective cover, mobile accessory",
+    "scenarios": "retail stores, online shops, mobile accessory chains",
+    "material": "TPU frame, PC back panel",
+    "specs": "for iPhone and Samsung models, custom model list available",
+    "functions": "drop protection, scratch resistance, clear back display",
+    "customization": "logo printing, package design, model mix",
+    "moq": "1000 pcs",
+    "sample": "stock sample available in 2-4 days",
+    "leadTime": "10-20 days",
+    "packaging": "OPP bag, retail box, custom blister packaging",
+    "certifications": "RoHS material declaration available",
+    "targetCountries": "United States, United Kingdom, Canada",
+    "targetBuyers": "mobile accessory wholesalers, e-commerce sellers, retail chains",
+    "notes": "Model compatibility should be confirmed before quotation."
+  },
+  "outputs": {
+    "productBrief": "产品定位: Shockproof Phone Case\n产品中心词: phone case\n核心关键词: shockproof phone case\n核心属性: anti-drop, transparent, slim fit\n目标买家: mobile accessory wholesalers, e-commerce sellers, retail chains",
+    "title": "Wholesale anti-drop transparent slim fit phone case protective cover for retail stores",
+    "bullets": "1. Procurement Fit: suitable for mobile accessory wholesalers and e-commerce sellers.\n2. Product Value: TPU frame and PC back panel support drop protection and scratch resistance.\n3. Customization Support: logo printing, package design, and model mix are available.\n4. Order Execution: MOQ 1000 pcs, stock sample in 2-4 days, lead time 10-20 days.\n5. Market Confidence: RoHS material declaration can be confirmed for target markets.",
+    "faq": "Q1: What is your MOQ?\nA1: MOQ is 1000 pcs.\n\nQ2: Can I mix models?\nA2: Model mix can be discussed according to stock and order quantity.\n\nQ3: Do you support custom packaging?\nA3: Retail box and custom blister packaging are available.",
+    "qualityCheck": "质检总评: 通过\n通过项: 标题结构清晰；没有销量、排名、客户案例编造。\n警告项: 需在报价前确认具体适配机型。\n需修改项: 无",
+    "finalOutput": "# 阿里国际站商品发布内容\n\n## 标题\nWholesale anti-drop transparent slim fit phone case protective cover for retail stores\n\n## 五点卖点\n见案例五点输出。\n\n## FAQ\n见案例 FAQ 输出。\n\n## 质检结果\n通过，需确认适配机型。"
+  }
+}

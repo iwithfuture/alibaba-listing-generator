@@ -1,0 +1,33 @@
+{
+  "id": "machinery-part",
+  "name": "CNC 机械零件",
+  "input": {
+    "productName": "CNC Machined Aluminum Part",
+    "productCore": "machined part",
+    "coreKeyword": "CNC machined aluminum part",
+    "brandMarketing": "Factory Supply",
+    "attributeWords": "precision, anodized, custom tolerance",
+    "keywordVariants": "CNC component, aluminum spare part",
+    "scenarios": "automation equipment, industrial machinery, robotics",
+    "material": "6061 aluminum, 7075 aluminum optional",
+    "specs": "custom drawing, tolerance according to drawing",
+    "functions": "structural support, assembly connection, replacement component",
+    "customization": "CNC machining, anodizing, laser marking, drawing-based production",
+    "moq": "100 pcs",
+    "sample": "prototype available after drawing review",
+    "leadTime": "7-15 days for prototype, 20-30 days for bulk order",
+    "packaging": "foam protection, anti-scratch bag, export carton",
+    "certifications": "ISO 9001 factory management available",
+    "targetCountries": "Germany, United States, Mexico",
+    "targetBuyers": "equipment manufacturers, maintenance suppliers, engineering buyers",
+    "notes": "Buyer should provide 2D/3D drawings and tolerance requirements."
+  },
+  "outputs": {
+    "productBrief": "产品定位: CNC Machined Aluminum Part\n产品中心词: machined part\n核心属性: precision, anodized, custom tolerance\n目标买家: equipment manufacturers, maintenance suppliers, engineering buyers",
+    "title": "Factory Supply precision anodized custom tolerance machined part CNC component for automation equipment",
+    "bullets": "1. Procurement Fit: suitable for engineering buyers sourcing drawing-based CNC components.\n2. Product Value: 6061 or 7075 aluminum options support structural and assembly applications.\n3. Customization Support: CNC machining, anodizing, laser marking, and tolerance control follow drawings.\n4. Order Execution: MOQ 100 pcs with prototype review and staged lead time.\n5. Market Confidence: ISO 9001 factory management information can support supplier evaluation.",
+    "faq": "Q1: What files do you need?\nA1: 2D or 3D drawings and tolerance requirements are needed.\n\nQ2: Can you make prototypes?\nA2: Prototype can be arranged after drawing review.\n\nQ3: How do you protect parts during shipping?\nA3: Foam protection, anti-scratch bag, and export carton can be used.",
+    "qualityCheck": "质检总评: 通过\n通过项: 符合工业品采购逻辑；没有虚构客户案例或销量。\n警告项: 报价前必须确认图纸和公差。\n需修改项: 无",
+    "finalOutput": "# 阿里国际站商品发布内容\n\n## 标题\nFactory Supply precision anodized custom tolerance machined part CNC component for automation equipment\n\n## 质检结果\n通过，报价前需确认图纸。"
+  }
+}

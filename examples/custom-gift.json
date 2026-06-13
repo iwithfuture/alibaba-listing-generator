@@ -1,0 +1,33 @@
+{
+  "id": "custom-gift",
+  "name": "企业定制礼品",
+  "input": {
+    "productName": "Custom Corporate Gift Set",
+    "productCore": "gift set",
+    "coreKeyword": "custom corporate gift set",
+    "brandMarketing": "Custom",
+    "attributeWords": "branded, premium look, multi-item",
+    "keywordVariants": "promotional gift, business gift box",
+    "scenarios": "corporate events, employee gifts, trade shows",
+    "material": "item materials vary by selected gift combination",
+    "specs": "notebook, pen, bottle, tote bag options",
+    "functions": "brand promotion, event giveaway, employee appreciation",
+    "customization": "logo printing, gift combination, color, greeting card, packaging",
+    "moq": "300 sets",
+    "sample": "sample set available after item selection",
+    "leadTime": "18-28 days",
+    "packaging": "custom gift box, paper bag, export carton",
+    "certifications": "item-specific certificates can be confirmed before order",
+    "targetCountries": "United States, Singapore, United Arab Emirates",
+    "targetBuyers": "corporate procurement teams, event agencies, promotional distributors",
+    "notes": "Gift combination and final quotation depend on selected items."
+  },
+  "outputs": {
+    "productBrief": "产品定位: Custom Corporate Gift Set\n产品中心词: gift set\n核心属性: branded, premium look, multi-item\n目标买家: corporate procurement teams, event agencies, promotional distributors",
+    "title": "Custom branded premium look multi-item gift set promotional gift for corporate events",
+    "bullets": "1. Procurement Fit: designed for corporate procurement teams and event agencies.\n2. Product Value: multi-item combinations support brand promotion and event giveaway needs.\n3. Customization Support: logo, item combination, color, greeting card, and packaging can be customized.\n4. Order Execution: MOQ 300 sets, sample after item selection, lead time 18-28 days.\n5. Market Confidence: item-specific certificates can be confirmed before order.",
+    "faq": "Q1: Can I choose different items?\nA1: Yes, item combination can be selected before quotation.\n\nQ2: Can we add company logo?\nA2: Logo printing and custom packaging are available.\n\nQ3: Are certificates available?\nA3: Certificates should be confirmed according to the selected items.",
+    "qualityCheck": "质检总评: 通过\n通过项: 没有编造固定认证；FAQ 对证书使用保守表达。\n警告项: 最终报价依赖选品。\n需修改项: 无",
+    "finalOutput": "# 阿里国际站商品发布内容\n\n## 标题\nCustom branded premium look multi-item gift set promotional gift for corporate events\n\n## 质检结果\n通过，报价依赖选品。"
+  }
+}
